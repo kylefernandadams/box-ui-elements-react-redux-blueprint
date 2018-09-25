@@ -1,6 +1,6 @@
 Box UI Elements React Redux Blueprint
 =====================================
-This is a starter project that levarages the `box-node-sdk` with an express backend and a React/Redux frontend.
+This is a Box UI Elements starter project that levarages the `box-node-sdk` with an express backend and a React/Redux frontend.
 
 Installation Instructions
 -------------------------
