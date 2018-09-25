@@ -9,7 +9,7 @@
     "server": "cd server/ && npm run server",
     "install-client": "cd client/ && npm install",
     "install-server": "cd server/ && npm install",
-    "install-all": "concurrently --kill-others-on-fail \"npm run install-server\" \"npm run install-client\"",
+    "install-all": "npm install && concurrently --kill-others-on-fail \"npm run install-server\" \"npm run install-client\"",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "start": "cd server/ && node server.js"
   },
